@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 16, 2023, 2:41:33 AM
+    Author     : liaa
+*/
+a {
+  font-size:14px;
+  font-weight:700
+}
+
+nav.navbar.navbar-expand-lg.sticky-top.navbar-light.p-3.shadow-sm {
+background: #353B48;
+}
+
+a.nav-link.mx-2.text-uppercase {
+color: rgb(255 255 255);
+}
+strong {
+color: white;
+}
+
+@media screen and (max-width:540px){
+  .centerOnMobile {
+    text-align:center
+  }
+}

@@ -1,0 +1,164 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 16, 2023, 2:41:25 AM
+    Author     : liaa
+*/
+
+/*home*/
+a {
+    color: #ffffff;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("../photos/cover.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    margin: 200px 60px;
+    align-self: center;
+}
+
+.content .info h2{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.searchbox {
+    max-width: 100%;
+    height: 60px;
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+button.btn-menu {
+    background: transparent;
+    border: none;
+}
+
+input#search {
+    padding: 8px;
+    width: 369px;
+    border: none;
+    outline: none;
+}
+
+button.btn-search {
+    padding: 16px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.products{
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.product-container{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:center;
+    
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: white;
+
+    padding-bottom:1%
+
+}
+
+
+
+.product-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product-description {
+    font-size: 0.875rem;
+    margin: 10px 0;
+    text-align: center;
+    color: grey
+}
+
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background-color: #000000b8;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.view-all button {
+    border: 1px solid;
+    border-radius: 8px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 10px 20px;
+    transition: all .5s ease;
+}
+
+.view-all button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*home end*/
